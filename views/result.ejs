@@ -1,0 +1,168 @@
+<%- include("header") -%>
+
+
+<main style="height:auto"  >
+
+  <body>
+<div class="">
+
+<br>
+
+      <h1 style="text-align:left" class="cityName"><%=dispCity%></h1>
+      <h1 style="font-size:10rem"><%=dispTemp%>&#730C</h1>
+      <h1 style="font-size:2rem"><%=dispDesc%></h1>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-12">
+
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-12 first">
+    <div class="hovereffect">
+      <a href=""><img src="<%=dispIcon%>" class="ico"></a>
+      <div class="overlay">
+        <p>
+          <a>
+
+
+
+            <h1><%=dispFeels%>&#730C</h1>
+            <p class="cards">Feels Like</p>
+
+
+<br>
+<br>
+<p class="cards">__________________________________</p>
+            <p class="cards">Minimun Temperature: <%=dispMin%>&#730C</p>
+            <p class="cards">Maximum Temperature: <%=dispMax%>&#730C</p>
+        <p class="cards">__________________________________</p>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-12">
+  </div>
+</div>
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="hovereffect">
+            <a href=""><img src="icons/humid.svg" class="ico2"></a>
+
+            <div class="overlay">
+              <p>
+                <a data-toggle="modal" data-target="#myModal">
+                  <h1><%=dispHumid%>%</h1>
+                  <p class="cards">Humidity</p>
+
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="hovereffect">
+            <a href=""><img src="icons/wind.svg" class="ico2"></a>
+            <div class="overlay">
+              <p>
+                <a>
+                  <h1><%=dispWind%> &#13223</h1>
+                  <p class="cards">Wind Speed</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="hovereffect">
+            <a href=""><img src="icons/cloud.svg" class="ico2"></a>
+            <div class="overlay">
+              <p>
+                <a>
+                  <h1><%=dispCloud%>%</h1>
+                  <p class="cards">Cloud Cover</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="hovereffect">
+            <a href=""><img src="icons/pressure.svg" class="ico2"></a>
+            <div class="overlay">
+              <p>
+                <a>
+                  <H1><%=dispPressure%> &#13169</H1>
+                  <p class="cards">Atmospheric pressure</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="hovereffect">
+            <a href=""><img src="icons/rise.svg" class="ico2"></a>
+
+            <div class="overlay">
+              <p>
+                <a data-toggle="modal" data-target="#myModal">
+                  <h1><%=dispRise%></h1>
+                  <p class="cards">Sunrise</p>
+
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="hovereffect">
+            <a href=""><img src="icons/set.svg" class="ico2"></a>
+            <div class="overlay">
+              <p>
+                <a>
+                  <h1><%=dispSet%></h1>
+                  <p class="cards">Sunset</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+</body>
